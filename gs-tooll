@@ -186,7 +186,7 @@ echo port ex: 53
 echo -------------
 read -p ' port : ' portdos
 for i in {1..100000}
-telnet $ipdos $pordos
+telnet $ipdos $portdos
 don
 fi
 
