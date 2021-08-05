@@ -66,8 +66,7 @@ clear
  
 read -p 'interface : ' interface 
 
-
-xterm -hold -e airodump-ng $interface
+airodump-ng $interface
 fi
 
 
